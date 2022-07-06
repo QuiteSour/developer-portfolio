@@ -15,14 +15,14 @@ export const openSource = {
 export const contact = {};
 
 export const socialLinks = {
-  github: 'https://github.com/darwin098',
-  linkedin: 'https://www.linkedin.com/in/kai-joon-leong-baa646148/',
+  github: 'https://github.com/QuiteSour',
+  linkedin: 'https://www.linkedin.com/in/clarence-loh-649ba7212/',
 };
 
 export const skillsSection = {
   title: 'What I do',
   subTitle:
-    'CRAZY FULL STACK DEVELOPER WHO WANTS TO EXPLORE EVERY TECH STACK AND UPCOMING TECHNOLOGIES',
+    'A VR/AR professional in the making while doing full stack',
   data: [
     {
       title: 'Full Stack Development',
