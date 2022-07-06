@@ -19,12 +19,12 @@ export default function Home({ githubProfileData }) {
     <div>
       <SEO
         data={{
-          title: 'Leong Kai Joon',
+          title: 'Clarence Loh',
           description:
-            'A passionate Full Stack Web Developer and aspiring Blockchain Developer.',
+            'A passionate ARVR developer.',
           image: 'https://avatars.githubusercontent.com/u/44398084?v=4',
           url: 'https://developer-portfolio-1hanzla100.vercel.app',
-          keywords: ['darwin098'],
+          keywords: ['QuiteSour'],
         }}
       />
       <Navigation />

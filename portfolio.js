@@ -1,15 +1,15 @@
 import emoji from 'react-easy-emoji';
 
 export const greetings = {
-  name: 'Leong Kai Joon',
-  title: "Hi all, I'm Kai Joon",
+  name: 'Loh Jun Heng Clarence',
+  title: "Hi all, I'm Clarence",
   description:
-    "I'm a passionate Full Stack web developer having some experience of web applications with Javascript, HTML, CSS, and some Blockchain development on Ethereum (Solidity) and mobile applications with React Native",
+    "A VR/AR professional in the making while practising full stack development!",
   resumeLink: '',
 };
 
 export const openSource = {
-  githubUserName: 'darwin098',
+  githubUserName: 'QuiteSour',
 };
 
 export const contact = {};
@@ -76,29 +76,38 @@ export const skillsSection = {
       ],
     },
     {
-      title: 'Blockchain',
-      lottieAnimationFile: '/lottie/skills/ethereum.json', // Path of Lottie Animation JSON File
+      title: 'VR AR',
+      lottieAnimationFile: 'https://assets8.lottiefiles.com/packages/lf20_clujqcpl.json', // Path of Lottie Animation JSON File
       skills: [
         emoji(
-          '⚡ Experience in developing simple Smart Contract using Solidity & Ethereum'
+          '⚡ Creating Unity Projects in Both Augmented Reality and Virtual Reality.'
         ),
       ],
       softwareSkills: [
         {
-          skillName: 'Ethereum',
-          fontAwesomeClassname: 'logos:ethereum',
+          skillName: 'Unity',
+          fontAwesomeClassname: 'logos:unity',
+        },
+      ],
+    },
+    {
+      title: 'Modeling',
+      lottieAnimationFile: 'https://assets3.lottiefiles.com/packages/lf20_epmgdhei.json', // Path of Lottie Animation JSON File
+      skills: [
+        emoji(
+          '⚡ Designing Models in Blender'
+        ),        emoji(
+          '⚡ Texturing Models in Adobe Substance Painter'
+        ),
+      ],
+      softwareSkills: [
+        {
+          skillName: 'Blender',
+          fontAwesomeClassname: 'logos:blender',
         },
         {
-          skillName: 'Solidity',
-          fontAwesomeClassname: 'logos:solidity',
-        },
-        {
-          skillName: 'Metamask',
-          fontAwesomeClassname: 'logos:metamask-icon',
-        },
-        {
-          skillName: 'Ganache',
-          fontAwesomeClassname: 'logos:ganache-icon',
+          skillName: 'Adobe Substance Painter',
+          fontAwesomeClassname: 'cib:adobe',
         },
       ],
     },
@@ -108,15 +117,23 @@ export const skillsSection = {
 export const SkillBars = [
   {
     Stack: 'Frontend/Design', //Insert stack or technology you have experience in
-    progressPercentage: '75', //Insert relative proficiency in percentage
+    progressPercentage: '70', //Insert relative proficiency in percentage
   },
   {
     Stack: 'Backend',
-    progressPercentage: '80',
+    progressPercentage: '75',
   },
   {
     Stack: 'Programming',
-    progressPercentage: '70',
+    progressPercentage: '75',
+  },
+  {
+    Stack: 'Unity', //Insert stack or technology you have experience in
+    progressPercentage: '85', //Insert relative proficiency in percentage
+  },
+  {
+    Stack: 'Blender', //Insert stack or technology you have experience in
+    progressPercentage: '65', //Insert relative proficiency in percentage
   },
 ];
 
@@ -125,8 +142,13 @@ export const educationInfo = [
     schoolName: 'Singapore Polytechnic',
     subHeader: 'Pursuing Diploma in Information Technology',
     duration: 'June 2021 - Present Date',
-    desc: 'Participated in the research of XXX and published 3 papers.',
+    // desc: 'Participated in the research of XXX and published 3 papers.',
     descBullets: ['Expected to finish education by June 2024'],
+  },  
+  {
+    schoolName: 'Unity Secondary',
+    subHeader: 'Pursuing N Level Certificate',
+    duration: 'January 2016 - November 2019',
   },
 ];
 
@@ -160,16 +182,22 @@ export const experience = [
 
 export const projects = [
   {
-    name: 'Water Vapor (School Group Project)',
-    desc: 'With Water Vapor, you can easily find games that are on the steam store for a great price!',
-    link: 'https://ades-team-5.netlify.app/',
+    name: 'ATBG (School Group Project)',
+    desc: 'A Test Based WebGame designed with Javascript, PostgresSQL, CSS, HTML',
+    link: 'https://ades-team1.netlify.app/',
     text: 'Demo',
   },
   {
-    name: 'Asteroid Destroyer (School Group Project)',
+    name: 'Gun Training in Augmented Reality (School Group Project)',
     desc: 'An augmented reality game made using Unity3D',
-    link: 'https://drive.google.com/file/d/150NG31p5Ue8472zM-3ih8G53t47hV2zp/view?usp=sharing',
-    text: 'Video',
+    link: 'https://drive.google.com/file/d/1u_3aaFlmqgg83E1yHwssoYR1bidlkgf6/view?usp=sharing',
+    text: 'Download Link',
+  },
+  {
+    name: 'Gun Training in Virtual Reality (School Group Project)',
+    desc: 'An virtual reality game made using Unity3D',
+    link: 'https://drive.google.com/file/d/1lCAPbpXSGparMSN4ZRuOdPCeZKlP9cT-/view?usp=sharing',
+    text: 'Download Link',
   },
 ];
 
